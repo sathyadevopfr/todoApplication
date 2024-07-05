@@ -1,0 +1,130 @@
+
+.todo-wrapper{
+background-color: #1f1e1eb3;
+color: white;
+padding: 2%;
+width: fit-content;
+height: fit-content;
+margin-left: auto;
+margin-right: auto;
+margin-top: 3%;
+max-height: 80vh;
+box-shadow: 0px 5px 7px rgb(27,27,27);
+}
+h1{
+    text-align: center;
+    color:#FFF;
+}
+.todo-input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid gray;
+    padding-bottom: 25px;
+    margin-bottom:25px;
+}
+.todo-input-item{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 25px;
+}
+.todo-input-item label{
+font-weight: bold;
+margin-bottom: 10px;
+font-size: 20px;
+}
+.todo-input-item input{
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    width: 240px;
+    outline: none;
+    font-size: 17px;
+}
+.todo-input-item input:focus{
+    border: 2px solid #1f1e1eb3;
+}
+.pbutton{
+  background-color:  #fff;
+    color: rgba(0, 0, 0, 0.693);
+
+    border-radius: 5px;
+    border :solid 0px;
+    padding: 10px 19px;
+    margin-top: 30px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+}
+.pbutton:hover{
+   
+      background:linear-gradient(93deg, rgb(83, 178, 254), rgb(6, 90, 243));
+    color: #fff;
+}
+.sbtn{
+background-color:  rgb(27,27,27);;
+    color: #fff;
+
+    /* border-radius: 5px; */
+    border :solid 0px;
+    padding: 10px 14px;
+    margin-top: 30px;
+    /* cursor: pointer; */
+    font-weight: bold;
+    font-size: 16px;
+    width: fit-content;
+}
+.active{
+  background-color: #8249f5b8;  
+}
+.list-todo{
+  display: flex;
+  flex-direction:column;
+  justify-content: space-around;
+  padding-top: 20px;
+}
+.list-todoin{
+  background-color: #1f1e1eb3;
+  display: flex;
+  justify-content: space-between;
+  padding: 25px;
+  padding-bottom: 10px;
+  padding-top:10px ;
+  margin-bottom: 2px solid;
+  align-items: center;
+  box-shadow: 0px 3px 5px #ad8ceeb8;  
+  }
+  .list-todo h3{
+    font-size: 25px;
+    color:#d7cbee;  
+    margin: 0px;
+    
+  }
+   .list-todo p{
+    font-size: 15px;
+    border-top:1px solid #fff ;
+    padding-top: 15px;
+    margin-top: 8px;
+   }
+   .ico{
+   font-size: 35px;
+   cursor: pointer;}
+   .ico-done{
+    font-size: 35px;
+    margin-left: 10px;
+    color: #fff;
+    cursor: pointer;
+   }
+   .ic{
+    margin-top: 20px;
+    margin-left: 5px;
+    justify-content: space-between;
+   }
+   .ico-done:hover{
+    color:#8249f5b8; 
+    /* background: #fff;  */
+   }
+   .ico:hover{
+    color: red;
+   }
